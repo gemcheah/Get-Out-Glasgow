@@ -34,7 +34,7 @@ margin: 0 auto;
 }
 
 .portfolio-box .portfolio-box-caption {
-color: white;
+color: black;
 opacity: 0;
 display: block;
 background: black;
@@ -145,7 +145,7 @@ color: green;
 }
 
 .bg-g{
-background-color: white;
+background-color: black;
 }
 
 .disclaimer {
@@ -155,8 +155,8 @@ font-style: italic;
 
 .btn-primary{
 margin-top: 40px;
-background-color: white;
-border-color: white;
+background-color: black;
+border-color: black;
 }
 
 #iaddpeople {
