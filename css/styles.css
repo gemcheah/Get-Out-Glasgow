@@ -1,10 +1,6 @@
-#imagecontainer
-{
-  width:  427px; /*or 70%, or what you want*/
-  height: 300px; /*or 70%, or what you want*/
-  max-height: 400px;
-  max-width: 650px;
-}
+
+
+
 
 .spc-bottom {
 padding-bottom: 30px;
