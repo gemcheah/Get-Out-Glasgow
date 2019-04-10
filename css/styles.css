@@ -92,7 +92,7 @@ outline: none;
 
 }
 
-img-circle {
+.img-circle {
 border-radius: 50%;
 height: auto;
 width: auto;
@@ -130,7 +130,7 @@ filter: sepia(100%)
 text-align: justify;
 }
 
-footer {
+.footer {
 padding: 20px 0;
 background-color: black;
 }
@@ -141,8 +141,8 @@ font-size: 12px;
 text-align: left;
 }
 
-footer a{
-color: green;
+footer-a{
+color: black;
 }
 
 .bg-g{
