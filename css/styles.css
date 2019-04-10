@@ -61,6 +61,7 @@ transform: translateY(-50%);
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
 font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 padding: 0 15px;
+color: #ffffff;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
