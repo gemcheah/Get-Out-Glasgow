@@ -1,3 +1,6 @@
+#home{
+  background-color: black
+}
 .spc-bottom {
 padding-bottom: 30px;
 }
@@ -55,6 +58,7 @@ text-align: center;
 position: absolute;
 top: 50%;
 transform: translateY(-50%);
+overflow: hidden;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
@@ -75,7 +79,7 @@ font-size: 16px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
-opacity: 1;
+opacity: 0.6;
 }
 
 .portfolio-box:focus {
@@ -196,4 +200,9 @@ position: absolute;
 margin-bottom: 0;
 bottom: 0;
 width: 100%;
+}
+
+#contact-form{
+    padding-left: 100px;
+    padding-right: 100px;
 }

@@ -45,59 +45,49 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-  </body>
 
-  <body>
     <div>
         <section class="no-padding" id="portfolio" style="padding-top:50px">
             <div class="container-fluid">
                 <div class="row no-gutter">
+    <div>
+      <h1 align=center>About Us</h1>
+  <!-- Contact Form -->
+    <form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Name *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Please enter your name.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                  <label for="form_email">Email *</label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                  <div class="help-block with-errors"></div>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12" style="text-align:center">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
 
     </div>
-
-    <!-- Form About us-->
-         <section class="container content-section after-nav">
-             <div class="row">
-                 <div class="col-lg-12">
-                     <h1 class="text-left">About Us</h1>
-                     <p> We are a group of girls coding through Code First Girls. We are here to help you plan your trips around beautiful Scotland! We hope you find what you're looking for. </p>
-                 </div>
-                 <div class="col-lg-12">
-                     <div class="col-lg-7" style="margin-top: 40px;">
-                         <div class="col-lg-4" style="margin-top: 30px;">
-                             <a href="about.html" target="_blank">
-                                 <img class="img-circle img-responsive sm-center founderpic" src="images/Skye.jpg" alt="Skye" href><br>
-                             </a>
-                         </div>
-                         <div class="col-lg-8">
-                             <h3>
-                                 <span style="bold" class="description"> Trips </span><br>
-                             </h3>
-                             <p class="description"> These are the trips and ways you can take them.
-                             </p>
-
-                         </div>
-                     </div>
-                      <div class="col-lg-4" style=" padding-top: 100px; float: right; margin-right:60px;">
-                          <img class="img-responsive sm-center" src="images/Cairngorms.jpg" alt="Cairngorms">
-                     </div>
-
-                     <div class="col-lg-7" style="margin-top: 40px; padding-bottom: 60px; float: left;">
-                         <div class="col-lg-4" style="margin-top: 30px;">
-                             <a href="about.html" target="_blank">
-                                 <img class="img-circle img-responsive sm-center founderpic" src="images/Mull.jpg" alt="Mull" href><br>
-                             </a>
-                         </div>
-                         <div class="col-lg-8">
-                             <h3>
-                                 <span style="bold" class="description"> Scotland </span><br>
-                             </h3>
-                             <p class="description"> There are several ways to visit Scotland: by bike, car, public transport, and of course, walking. </p>
-                         </div>
-
-                     </div>
-                 </div>
-
-
-
-             </div>
+</form>
+</body>
