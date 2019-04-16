@@ -202,6 +202,33 @@ bottom: 0;
 width: 100%;
 }
 
+#index-home{
+    background-color: lightgreen;
+    font-style: normal;
+}
+
+
+div.contrast {
+    background-color: black;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+p {
+    margin: 10vh 10vw 10vh 10vw;
+    font-size: 2em;
+  }
+
+.contrast p{
+    width: 100%;
+    font-size: 1.5em;
+    margin: 10vh 10vw 5vh 10vw;
+    display: flex;
+}
+
 #contact-form{
     padding-left: 100px;
     padding-right: 100px;
