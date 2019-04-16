@@ -203,14 +203,15 @@ width: 100%;
 }
 
 #index-home{
-    background-color: lightgreen;
+    background-color: black;
     font-style: normal;
+    color: white;
 }
 
 
 div.contrast {
-    background-color: black;
-    color: rgb(255,255,255);
+    background-color: lightgreen;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
