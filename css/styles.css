@@ -7,6 +7,7 @@ h1{
   text-align: center;
   font-size: 5em;
   color: white;
+  height: 100;
 }
 h2{
   text-align: center;
@@ -21,4 +22,20 @@ body{
 }
 h3{
   text-align: left;
+}
+
+
+	#bike-home{
+	    background-color: black;
+	    font-style: small;
+	    color: white;
+	}
+
+	.bike-p{
+	    font-size: 1.5em;
+	}
+
+#wrapper{
+margin-left: 50;
+margin-right: 50;
 }
