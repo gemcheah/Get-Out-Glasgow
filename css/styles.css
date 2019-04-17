@@ -304,4 +304,14 @@ body {
     /* Border styles */
     border: 3px solid white; /* CHANGE THIS LINE */
     border-radius: 20px;
+
+#bike-home{
+    background-color: black;
+    font-style: small;
+    color: white;
+}
+
+.bike-p{
+    font-size: 1.5em;
+
 }
