@@ -236,6 +236,10 @@ h1 {
     font-family: 'PT Serif', serif;
   }
 
+h2 {
+      font-family: 'PT Serif', serif;
+    }
+
 #contact-form{
     padding-left: 100px;
     padding-right: 100px;
@@ -428,5 +432,20 @@ body {
 .list-group{
   margin-left: auto;
    margin-right: auto;
-   width: 50px
+   width: 400px
+}
+
+#PTLoch{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../images/loch-lomond.jpg');
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#PTLoch p{
+  font-family: 'Lato', sans-serif;
+}
+
+#PTLoch h2{
+  font-family: 'PT Serif', serif;
 }
