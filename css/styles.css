@@ -234,3 +234,13 @@ p {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+#bike-home{
+    background-color: black;
+    font-style: small;
+    color: white;
+}
+
+.bike-p{
+    font-size: 1.5em;
+}
