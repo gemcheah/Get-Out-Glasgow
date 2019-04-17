@@ -220,8 +220,10 @@ div.contrast {
 
 p {
     margin: 10vh 10vw 10vh 10vw;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
   }
+
 
 .contrast p{
     width: 100%;
@@ -230,9 +232,190 @@ p {
     display: flex;
 }
 
+h1 {
+    font-family: 'PT Serif', serif;
+  }
+
+h2 {
+      font-family: 'PT Serif', serif;
+    }
+
 #contact-form{
     padding-left: 100px;
     padding-right: 100px;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.chero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/car-highlands.jpg');
+    margin-top:-150px;
+    padding-bottom:150px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.chero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 400px;
+    margin-bottom: 0.5em;
+}
+
+.chero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+}
+
+.PThero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/Central-Station.jpg');
+    margin-top:-150px;
+    padding-bottom:150px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.PThero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 400px;
+    margin-bottom: 0.5em;
+}
+
+.PThero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+
+}
+.Bhero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/bike-highlands.jpg');
+    margin-top:-150px;
+    padding-bottom:150px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Bhero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 400px;
+    margin-bottom: 0.5em;
+}
+
+.Bhero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
 }
 
 #bike-home{
@@ -243,4 +426,26 @@ p {
 
 .bike-p{
     font-size: 1.5em;
+
+}
+
+.list-group{
+  margin-left: auto;
+   margin-right: auto;
+   width: 400px
+}
+
+#PTLoch{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../images/loch-lomond.jpg');
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#PTLoch p{
+  font-family: 'Lato', sans-serif;
+}
+
+#PTLoch h2{
+  font-family: 'PT Serif', serif;
 }
