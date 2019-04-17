@@ -6,7 +6,7 @@ header{
 h1{
   text-align: center;
   font-size: 5em;
-  color: white;
+  color: pureblack;
   height: 100;
 }
 h2{
@@ -24,15 +24,16 @@ h3{
   text-align: left;
 }
 
-
+#mapouter{
+  text-align: center;
+}
 	#bike-home{
-	    background-color: black;
 	    font-style: small;
-	    color: white;
+	    color: pureblack;
 	}
 
 	.bike-p{
-	    font-size: 1.5em;
+	   font-size: 1.5em;
 	}
 
 #wrapper{
