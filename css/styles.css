@@ -235,106 +235,12 @@ p {
     padding-right: 100px;
 }
 
-.footer {
-    /*border-top: 1px solid #e3eaec;*/
-    /*margin-top: 30px;*/
-    padding: 108px 0;
-    background: #1b1d1f;
+#bike-home{
+    background-color: black;
+    font-style: small;
+    color: white;
 }
 
-.footer a {
-    color: #fff;
-    padding-right: 24px;
-}
-
-.footer a:last-child {
-    padding-right: 0;
-}
-
-.footer p {
-    color: #fff;
-    font-size: 12px;
-    text-align: center;
-    font-weight: 100;
-    margin: 24px 0 0 0;
-}
-.footer-ticket {
-    margin-top: 60px;
-    background: #1080d0;
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(45deg, #0B4182 1%, #1080d0 64%, #40BAF5 97%);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(45deg, #0B4182 1%, #1080d0 64%, #40BAF5 97%);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(45deg, #0B4182 1%, #1080d0 64%, #40BAF5 97%);
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(45deg, #0B4182 1%, #1080d0 64%, #40BAF5 97%);
-    /* Standard syntax */
-    /*background: rgb(16, 128, 208);*/
-}
-
-.footer-ticket-inner {
-    padding: 80px;
-    color: #fff;
-    margin: 0 auto;
-    max-width: 1200px;
-    text-align: center;
-    font-weight: 400;
-}
-
-.footer-ticket-inner .btn-container {
-    margin-left: 30px;
-}
-
-.footer-ticket-inner .btn-container a {
-    color: #fff;
-    border: 1px solid #fff;
-    letter-spacing: .075em;
-}
-
-.footer-ticket-inner .button:hover {
-    background: #fff;
-    color: #1080d0;
-}
-
-@media screen and (max-width: 767px) {
-    .footer-ticket-inner .btn-container {
-        margin: 20px auto 0 auto;
-        display: block;
-        max-width: 400px;
-    }
-}
-
-/*.footer-inner {
-    max-width: 1160px;
-    margin: 0 auto;
-    padding: 0 5%;
-    display: flex;
-    justify-content: space-between;
-}*/
-
-
-/*@media (min-width: 1024px) {
-    .footer-inner {
-        padding: 0;
-        width: 90%;
-    }
-}*/
-
-.footer-language-selector {
-    color: lighten(#45515b, 20%);
-    display: inline-block;
-    font-weight: 300;
-}
-
-.footer-social {
-    text-align: center;
-}
-
-.footer-social i {
-    font-size: 20px;
-}
-
-.footer-social i:hover {
-    color: #1080d0;
+.bike-p{
+    font-size: 1.5em;
 }
